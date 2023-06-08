@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="93.109" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Checkout_Page" name="Verify checkout-step-one page functionality with valid data - Example #1.1" time="32.546">
+<system-out><![CDATA[
+Given Chrome is launched and Swaglabs is opened.............................passed
+Then User navigates to login page...........................................passed
+When User loged into swaglabs with Username "standard_user" and Password "secret_sauce".passed
+And User add the product to the cart and click on check out page............passed
+Then User enters "john" and "Anath" and "522311"............................passed
+And User clicks on Continue button in checkout information page.............passed
+Then It navigates to checkout overview page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout_Page" name="Verify checkout-step-one page functionality with valid data - Example #1.2" time="31.216">
+<system-out><![CDATA[
+Given Chrome is launched and Swaglabs is opened.............................passed
+Then User navigates to login page...........................................passed
+When User loged into swaglabs with Username "standard_user" and Password "secret_sauce".passed
+And User add the product to the cart and click on check out page............passed
+Then User enters "Geetha" and "Ravi" and "700156"...........................passed
+And User clicks on Continue button in checkout information page.............passed
+Then It navigates to checkout overview page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout_Page" name="Verify checkout-step-one page functionality with invalid data - Example #1.1" time="29.132">
+<system-out><![CDATA[
+Given Chrome is launched and Swaglabs is opened.............................passed
+Then User navigates to login page...........................................passed
+When User loged into swaglabs with Username "standard_user" and Password "secret_sauce".passed
+And User add the product to the cart and click on check out page............passed
+Then User enters "john" and "Anath" and ""..................................passed
+And User clicks on Continue button in checkout information page.............passed
+Then It shows error message enter postal code...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
